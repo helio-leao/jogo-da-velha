@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tabuleiro{
+    background: black;
+
+    margin: auto;
+
+    width: 400px;
+    height: 400px;
+
+    display: grid;
+    grid-template-rows: 130px 130px 130px;
+    grid-template-columns: 130px 130px 130px;
+
+    gap: 5px;
+}
+
+.casa{
+    background: floralwhite;
+
+    font-size: 80px;
+
+    line-height: 130px;
+    text-align: center;
+}
+
+h2{
+    height: 30px;
+}
+
+button {
+    padding: 15px;
+}
